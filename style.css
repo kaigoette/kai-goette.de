@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #864343;
+    font-size: 16px;
 }
 
 header {
@@ -10,6 +11,18 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+#content {
+    overflow: scroll;
+    position: fixed;
+    width: 100%;
+    bottom: 105px;
+    top: 154px;
+    padding: 20px;
 }
 
 footer {
