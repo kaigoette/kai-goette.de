@@ -21,3 +21,9 @@ footer {
     bottom: 0%;
     width: 100%;
 }
+
+.footerLink {
+    color: #898989;
+    margin-left: 1%;
+    margin-right: 1%
+}
