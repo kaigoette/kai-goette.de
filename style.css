@@ -13,16 +13,17 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    top: 0%;
+    top: 0;
 }
 
 #content {
     overflow: scroll;
     position: fixed;
-    width: 100%;
-    bottom: 105px;
-    top: 154px;
+    left: 0;
+    right: 0;
     padding: 20px;
+    bottom: var(--footer-height, 125px);;
+    top: 154px;
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
     background-color: #412121;
     color: #fff;
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     width: 100%;
 }
 
@@ -39,4 +40,22 @@ footer {
     color: #898989;
     margin-left: 1%;
     margin-right: 1%
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0); /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb when hovered */
 }
